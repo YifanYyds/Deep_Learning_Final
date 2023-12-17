@@ -1,6 +1,6 @@
 # Comparing LSTM and Simple RNN for Sentiment Analysis
 ## Introduction
-In this project, we explore the performance differences between Long Short-Term Memory (LSTM) networks and Simple Recurrent Neural Networks (RNNs) in the context of sentiment analysis. Utilizing TensorFlow Keras, we implement and compare these models to understand their strengths and limitations in handling sequential data. Our focus is on evaluating their accuracy and training efficiency, providing insights into their applicability for various tasks in deep learning.
+In this project, we explore the performance differences between Long Short-Term Memory (LSTM) networks and Simple Recurrent Neural Networks (RNNs) in the context of sentiment analysis. Utilizing TensorFlow Keras, we implement and compare these models to understand their strengths and limitations in handling sequential data. Our focus is on evaluating their accuracy training efficiency,etc., providing insights into their applicability for various tasks in deep learning.
 
 ## Dataset
 This project utilizes a publicly available dataset for multiclass sentiment analysis, which can be accessed [here](https://huggingface.co/datasets/Sp1786/multiclass-sentiment-analysis-dataset).
