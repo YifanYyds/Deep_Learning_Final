@@ -84,9 +84,13 @@ The repository is structured as follows:
 - `models`: Trained model files.
 Library versions:
 TensorFlow Version: 2.15.0
+
 Keras Version: 2.15.0
+
 Pandas Version: 1.5.3
+
 NumPy Version: 1.23.5
+
 (current versions on google colab. 2023/12/17)
 ### Trained Model
 The trained model can be accessed and downloaded from the following Google Drive folder: [Trained Model Folder](https://drive.google.com/drive/folders/1T2XThXZVQo-NYV6WD0_FdAB8pZ6qOYrb?usp=sharing)
