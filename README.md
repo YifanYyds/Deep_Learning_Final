@@ -28,6 +28,15 @@ Embedding Layer: The LSTM model begins with an Embedding layer, which plays a cr
 LSTM Layer: At the heart of the model lies the LSTM layer, which processes the sequence of word embeddings. Each LSTM unit comprises a complex arrangement of gates - the input, forget, and output gates. These gates collaboratively decide which information should be remembered and which should be discarded, enabling the network to maintain a memory over input sequences. The number of units in the LSTM layer, a critical hyperparameter, determines the capacity of the model to learn and store information. More units can provide a richer understanding of the sequence context but at the cost of increased computational complexity.
 
 Output Layer: The model concludes with a Dense layer featuring a softmax activation function. This layer translates the LSTM's output into probabilities across the target classes. In the context of sentiment analysis, these classes typically correspond to different sentiment labels like negative, neutral, and positive.
+### Simple RNN Model
+#### Intro to Simple RNN
+The Simple Recurrent Neural Network (RNN) is a fundamental type of neural network designed for processing sequential data. It's characterized by its straightforward architecture where the output from the previous step is fed back into the network at each step, allowing it to maintain a form of 'memory' of past inputs. This feature makes Simple RNNs suitable for tasks that involve sequences, such as language modeling and text classification. However, they are typically less complex and have fewer parameters than more advanced networks like LSTMs.
+#### Architecture details
+Embedding Layer: Similar to the LSTM model, the Simple RNN model also starts with an Embedding layer. This layer converts input text data into dense vectors of fixed size. Each word is represented by a vector in a predefined embedding space, capturing essential semantic relationships.
+
+Simple RNN Layer: The core of this model is the Simple RNN layer, which processes the sequence of word embeddings. Unlike LSTMs, Simple RNNs do not have complex gating mechanisms like input, forget, and output gates. Instead, they rely on a simpler structure where the hidden state from the previous timestep is combined with the current input to produce the next output. This simplicity can lead to challenges such as the vanishing gradient problem, particularly in long sequences. The number of units in the Simple RNN layer is a key hyperparameter, influencing the model's ability to process and remember information across the sequence.
+
+Output Layer: The model concludes with a Dense layer with a softmax activation, similar to the LSTM model. This layer outputs the probabilities for each class in the classification task, such as the different sentiments in sentiment analysis.
 ## Hyperparameter Tuning
 ## Callbacks
 ## Results
