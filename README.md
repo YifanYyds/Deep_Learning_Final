@@ -24,7 +24,9 @@ This preprocessing approach ensured that the input data to both models was stand
 Long Short-Term Memory (LSTM) networks are a type of  Recurrent Neural Network (RNN) specialized in remembering information over extended sequences, which makes them suitable for tasks like sentiment analysis, language modeling, and sequence prediction.
 #### Achitecture details
 Embedding Layer: The LSTM model begins with an Embedding layer, which plays a crucial role in text processing tasks. This layer maps each word in the input sequence to a high-dimensional vector space, capturing semantic relationships between words. The size of the embedding space is a key hyperparameter, directly influencing the model's ability to encapsulate word relationships.
+
 LSTM Layer: At the heart of the model lies the LSTM layer, which processes the sequence of word embeddings. Each LSTM unit comprises a complex arrangement of gates - the input, forget, and output gates. These gates collaboratively decide which information should be remembered and which should be discarded, enabling the network to maintain a memory over input sequences. The number of units in the LSTM layer, a critical hyperparameter, determines the capacity of the model to learn and store information. More units can provide a richer understanding of the sequence context but at the cost of increased computational complexity.
+
 Output Layer: The model concludes with a Dense layer featuring a softmax activation function. This layer translates the LSTM's output into probabilities across the target classes. In the context of sentiment analysis, these classes typically correspond to different sentiment labels like negative, neutral, and positive.
 ## Hyperparameter Tuning
 ## Callbacks
