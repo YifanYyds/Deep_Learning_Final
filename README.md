@@ -82,7 +82,9 @@ The repository is structured as follows:
 - `notebooks`: 'LSTM_final.ipynb', 'SimpleRNN_final.ipynb','get_average_time_per_batch.ipynb'
 - `data`: 'test_df.csv', 'train_df.csv', 'val_df.csv'
 - `models`: Trained model files.
+  
 Library versions:
+
 TensorFlow Version: 2.15.0
 
 Keras Version: 2.15.0
