@@ -64,7 +64,7 @@ At the end of each epoch, the average time per batch is calculated and appended 
 This data can be used to compare the training efficiency of different models and configurations.
 
 ## Results
-Our comparative analysis of LSTM and Simple RNN models revealed distinct differences in performance and efficiency. The LSTM model achieved a higher accuracy of XX% on the test set, compared to XX% for the Simple RNN, indicating its superior capability in handling complex sequential data. The TimeHistory callback analysis showed that the LSTM model had a slightly higher average training time per batch, which aligns with its more complex architecture.
+Our comparative analysis of LSTM and Simple RNN models revealed distinct differences in performance and efficiency. The LSTM model achieved a higher accuracy of 65.89% on the test set, compared to 49.08% for the Simple RNN, indicating its superior capability in handling complex sequential data. The TimeHistory callback analysis showed that the LSTM model had a slightly higher average training time per batch, which aligns with its more complex architecture.
 
 | Model     | Test Accuracy | Avg. Training Time per Batch(sec) |
 |-----------|----------|------------------------------|
@@ -73,7 +73,7 @@ Our comparative analysis of LSTM and Simple RNN models revealed distinct differe
 |-----------|----------|------------------------------|
 
 
-For detailed training logs, epoch-wise performance metrics, and additional plots, please refer to our comprehensive [Simple RNN Jupyter notebooks](https://github.com/YifanYyds/Deep_Learning_Final/blob/main/SimpleRNN_final.ipynb) and [LSTM Jupyter notebooks](https://github.com/YifanYyds/Deep_Learning_Final/blob/main/LSTM_final.ipynb)
+For detailed training logs, epoch-wise performance metrics, and additional plots, and other test on other datasets, please refer to our comprehensive [Simple RNN Jupyter notebooks](https://github.com/YifanYyds/Deep_Learning_Final/blob/main/SimpleRNN_final.ipynb) and [LSTM Jupyter notebooks](https://github.com/YifanYyds/Deep_Learning_Final/blob/main/LSTM_final.ipynb)
 ## Source code
 ## Trained Model
 The trained model can be accessed and downloaded from the following Google Drive folder: [Trained Model Folder](https://drive.google.com/drive/folders/1T2XThXZVQo-NYV6WD0_FdAB8pZ6qOYrb?usp=sharing)
