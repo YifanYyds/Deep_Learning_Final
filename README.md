@@ -1,9 +1,11 @@
 # Comparing LSTM and Simple RNN for Sentiment Analysis
 ## Introduction
 In this project, we explore the performance differences between Long Short-Term Memory (LSTM) networks and Simple Recurrent Neural Networks (RNNs) in the context of sentiment analysis. Utilizing TensorFlow Keras, we implement and compare these models to understand their strengths and limitations in handling sequential data. Our focus is on evaluating their accuracy and training efficiency, providing insights into their applicability for various tasks in deep learning.
+
 ## Dataset
 This project utilizes a publicly available dataset for multiclass sentiment analysis, which can be accessed [here](https://huggingface.co/datasets/Sp1786/multiclass-sentiment-analysis-dataset).
- The dataset is pre-divided into training, validation, and test sets, simplifying the data preparation process. It consists of textual data classified into three sentiment categories: negative, neutral, and positive, represented numerically as 0, 1, and 2, respectively. This rich dataset provides a realistic scenario for evaluating the comparative effectiveness of LSTM and Simple RNN models in classifying sentiments with varying degrees of complexity.
+The dataset is pre-divided into training, validation, and test sets, simplifying the data preparation process. It consists of textual data classified into three sentiment categories: negative, neutral, and positive, represented numerically as 0, 1, and 2, respectively. This rich dataset provides a realistic scenario for evaluating the comparative effectiveness of LSTM and Simple RNN models in classifying sentiments with varying degrees of complexity.
+ 
 ## Data preprocessing
 For both the LSTM and Simple RNN models, we employed a uniform data preprocessing pipeline to ensure consistency in our comparison. The preprocessing steps included:
 
@@ -75,9 +77,18 @@ Our comparative analysis of LSTM and Simple RNN models revealed distinct differe
 
 For detailed training logs, epoch-wise performance metrics, and additional plots, and other test on other datasets, please refer to our comprehensive [Simple RNN Jupyter notebooks](https://github.com/YifanYyds/Deep_Learning_Final/blob/main/SimpleRNN_final.ipynb) and [LSTM Jupyter notebooks](https://github.com/YifanYyds/Deep_Learning_Final/blob/main/LSTM_final.ipynb)
 ## Source code
-## Trained Model
+The source code for this project is available on GitHub: [Link to GitHub Repository]([https://github.com/yourusername/your-repository-name](https://github.com/YifanYyds/Deep_Learning_Final/tree/main))
+The repository is structured as follows:
+- `notebooks`: 'LSTM_final.ipynb', 'SimpleRNN_final.ipynb','get_average_time_per_batch.ipynb'
+- `data`: 'test_df.csv', 'train_df.csv', 'val_df.csv'
+- `models`: Trained model files.
+
+### Trained Model
 The trained model can be accessed and downloaded from the following Google Drive folder: [Trained Model Folder](https://drive.google.com/drive/folders/1T2XThXZVQo-NYV6WD0_FdAB8pZ6qOYrb?usp=sharing)
 
-Please refer to the folder for the model files. Instructions for loading and using the model are provided below.
 ## References
 https://www.researchgate.net/publication/350543179_Sentiment_Analysis_Using_Deep_Learning
+https://www.tensorflow.org/api_docs/python/tf/keras/metrics
+https://www.tensorflow.org/api_docs/python/tf/keras/layers/LSTM
+https://www.tensorflow.org/api_docs/python/tf/keras/layers/SimpleRNN
+https://huggingface.co/datasets/Sp1786/multiclass-sentiment-analysis-dataset
