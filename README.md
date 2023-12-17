@@ -64,7 +64,7 @@ At the end of each epoch, the average time per batch is calculated and appended 
 This data can be used to compare the training efficiency of different models and configurations.
 
 ## Results
-Our comparative analysis of LSTM and Simple RNN models revealed distinct differences in performance and efficiency. The LSTM model achieved a higher accuracy of 65.89% on the test set, compared to 49.08% for the Simple RNN, indicating its superior capability in handling complex sequential data. The TimeHistory callback analysis showed that the LSTM model had a slightly higher average training time per batch, which aligns with its more complex architecture.
+Our comparative analysis of LSTM and Simple RNN models revealed distinct differences in performance and efficiency. The LSTM model achieved a higher accuracy of 65.89% on the test set, compared to 49.08% for the Simple RNN, indicating its superior capability in handling complex sequential data. The TimeHistory callback analysis showed that the LSTM model had a slightly higher average training time per batch, which aligns with its more complex architecture. As for how we get the avg training time per batch could refer to this [get average time per batch](https://github.com/YifanYyds/Deep_Learning_Final/blob/main/get_average_time_per_batch.ipynb)
 
 | Model     | Test Accuracy | Avg. Training Time per Batch(sec) |
 |-----------|----------|------------------------------|
