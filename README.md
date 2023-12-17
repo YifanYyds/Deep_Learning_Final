@@ -70,6 +70,8 @@ Our comparative analysis of LSTM and Simple RNN models revealed distinct differe
 |-----------|----------|------------------------------|
 | LSTM      | 65.89%      | 0.06292901959745524s                           |
 | Simple RNN| 49.08%      | 0.3371764089771449s                           |
+|-----------|----------|------------------------------|
+
 
 For detailed training logs, epoch-wise performance metrics, and additional plots, please refer to our comprehensive [Simple RNN Jupyter notebooks](https://github.com/YifanYyds/Deep_Learning_Final/blob/main/SimpleRNN_final.ipynb) and [LSTM Jupyter notebooks](https://github.com/YifanYyds/Deep_Learning_Final/blob/main/LSTM_final.ipynb)
 ## Source code
